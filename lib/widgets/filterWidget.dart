@@ -49,54 +49,65 @@ class FilterWidget extends StatelessWidget {
                   ],
                 ),
               ),
-              Container(
-                height: 27,
-                width: 76,
-                padding: EdgeInsets.all(4),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  border: Border.all(color: Palette.black),
-                  borderRadius: BorderRadius.circular(25)
-                ),
-                child: Text('Non-Veg',style:GoogleFonts.tajawal(
-                  fontWeight: FontWeight.w500,
-                  fontSize: 16,
-                )
-                ),
-              ),
-           Container(
-                height: 27,
-                width: 74,
-                padding: EdgeInsets.all(4),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  border: Border.all(color: Palette.black),
-                  borderRadius: BorderRadius.circular(25)
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.only(left:14),
-                  child: Text('Veg',style:GoogleFonts.tajawal(
+              GestureDetector(
+                onTap: (){},
+                child: Container(
+                  height: 27,
+                  width: 76,
+                  padding: EdgeInsets.all(4),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    border: Border.all(color: Palette.black),
+                    borderRadius: BorderRadius.circular(25)
+                  ),
+                  child: Text('Non-Veg',style:GoogleFonts.tajawal(
                     fontWeight: FontWeight.w500,
                     fontSize: 16,
                   )
                   ),
                 ),
               ),
-           Container(
-                height: 27,
-                width: 86,
-                padding: EdgeInsets.all(4),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  border: Border.all(color: Palette.black),
-                  borderRadius: BorderRadius.circular(25)
+           GestureDetector(
+            onTap: (){
+
+            },
+             child: Container(
+                  height: 27,
+                  width: 74,
+                  padding: EdgeInsets.all(4),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    border: Border.all(color: Palette.black),
+                    borderRadius: BorderRadius.circular(25)
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.only(left:14),
+                    child: Text('Veg',style:GoogleFonts.tajawal(
+                      fontWeight: FontWeight.w500,
+                      fontSize: 16,
+                    )
+                    ),
+                  ),
                 ),
-                child: Text('Best Seller',style:GoogleFonts.tajawal(
-                  fontWeight: FontWeight.w500,
-                  fontSize: 16,
-                )
+           ),
+           GestureDetector(
+            onTap: (){},
+             child: Container(
+                  height: 27,
+                  width: 86,
+                  padding: EdgeInsets.all(4),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    border: Border.all(color: Palette.black),
+                    borderRadius: BorderRadius.circular(25)
+                  ),
+                  child: Text('Best Seller',style:GoogleFonts.tajawal(
+                    fontWeight: FontWeight.w500,
+                    fontSize: 16,
+                  )
+                  ),
                 ),
-              )
+           )
            
            
             ],
