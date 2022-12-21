@@ -1,4 +1,5 @@
 import 'package:app_ui/Screens/detailScreen.dart';
+import 'package:app_ui/Screens/homeFood.dart';
 import 'package:app_ui/design/design.dart';
 import 'package:flutter/material.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Palette.white,
         ),
 
-      home:  Home(),
+      home:  HomeFood(),
       );
   }
 }

@@ -5,7 +5,12 @@ import 'package:flutter/material.dart';
 
 
 class Palette {
-  
+  static const Color kPrimary = Color(0xFFF55A51);
+  static const Color kSearchText = Color(0xFF776B8A);
+  static const Color kPrimaryText = Color(0xFF4E3D67);
+  static const Color kBlack = Color(0xFF000000);
+  static const Color pinkFill = Color(0xFFFFEAE9);
+
   static const Color cardfillColor = Color(0xFFF8F8F8);
 
   static const Color Pink = Color(0xFFFD7685);
@@ -18,7 +23,7 @@ class Palette {
   static const Color rupeeColor = Color(0xFF4E3D67);
   static const Color rupeeDiscount = Color(0xFF828282);
   static const Color lightText = Color(0xFF776B8A);
-  static const Color pinkFill = Color(0xFFFFEAE9);
+  
   
 
   
